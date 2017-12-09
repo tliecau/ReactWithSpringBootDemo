@@ -1,0 +1,28 @@
+{
+  "name": "spring-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./built/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "rest": "latest",
+    "node-rest-client": "latest"
+  },
+  "devDependencies": {
+    "babel-loader": "latest",
+    "babel-core": "latest",
+    "babel": "latest",
+    "webpack": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest"
+  },
+  "scripts": {
+    "webpack": "node node_modules/webpack/bin/webpack -w"
+  }
+}
