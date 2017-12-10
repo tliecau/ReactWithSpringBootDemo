@@ -35,9 +35,8 @@ dependencies {
     compile("org.thymeleaf.extras:thymeleaf-extras-springsecurity4:3.0.2.RELEASE")
 
     testCompile("org.springframework.security:spring-security-test")
-    compileOnly("org.projectlombok:lombok:1.16.18")
+    compile("org.projectlombok:lombok:1.16.18")
     testCompile('org.springframework.boot:spring-boot-starter-test')
-    annotationProcessor "org.projectlombok:lombok:1.16.18"
 }
 
 task npmInstall(type:Exec) {
