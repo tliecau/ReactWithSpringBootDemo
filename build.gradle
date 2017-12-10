@@ -37,6 +37,7 @@ dependencies {
     testCompile("org.springframework.security:spring-security-test")
     compileOnly("org.projectlombok:lombok:1.16.18")
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    annotationProcessor "org.projectlombok:lombok:1.16.18"
 }
 
 task npmInstall(type:Exec) {
